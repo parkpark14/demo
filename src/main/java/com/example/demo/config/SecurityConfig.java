@@ -79,8 +79,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     e.printStackTrace();
                 }
 
-                System.out.println("rawPasswordStr = " + rawPasswordStr);
-                System.out.println("encodePassword = " + encodePassword);
                 return encodedPassword.equals(encodePassword);
             }
 
