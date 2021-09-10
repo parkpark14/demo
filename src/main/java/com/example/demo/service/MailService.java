@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class MailService {
 
     private JavaMailSender mailSender;
-    private static final String FROM_ADDRESS = "YOUR_EMAIL_ADDRESS";
+    private static final String FROM_ADDRESS = "parkpark14@naver.com";
 
     public void mailSend(MailDomain mailDomain) {
         SimpleMailMessage message = new SimpleMailMessage();
